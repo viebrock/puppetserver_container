@@ -16,7 +16,7 @@ fi
 # Startup the Foreman smartproxy
 # SMARTPROXY=true
 if test -n "${SMARTPROXY}" ; then
-  /usr/share/foreman-proxy/bin/smart-proxy
+  /opt/puppetlabs/puppet/bin/ruby /usr/share/foreman-proxy/bin/smart-proxy
 fi
 
 exec /opt/puppetlabs/bin/puppetserver "$@"
