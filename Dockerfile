@@ -9,6 +9,7 @@ COPY docker-entrypoint.sh /
 
 RUN echo "deb http://deb.theforeman.org/ jessie $FOREMAN_VERSION" > /etc/apt/sources.list.d/foreman.list && \
     echo "deb http://deb.theforeman.org/ plugins $FOREMAN_VERSION" >> /etc/apt/sources.list.d/foreman.list && \
-    apt-get -y update && apt-get -y upgrade  && apt-get -y install foreman_proxy
+    apt-get -y update && apt-get -y upgrade  && \
+    apt-get -y --allow-unauthenticated install foreman-proxy
 
 
