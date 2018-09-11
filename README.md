@@ -23,3 +23,4 @@ Other Notes
 * Upon container startup, the Puppet CA certificate will be added to the
   OS certificate store.
 * The Foreman smart-proxy currently executes as root.
+* Foreman ENC script installed as `/usr/local/bin/foreman-enc.rb`.
