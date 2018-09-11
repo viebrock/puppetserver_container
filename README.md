@@ -17,3 +17,9 @@ The following environmental variables are recognized by the contianer:
    * SMARTPROXY: When set to any value the Foreman smart_proxy will be
         started. The configuration for the smart_proxy is located in
         /etc/foreman-proxy.
+
+Other Notes
+-----------
+* Upon container startup, the Puppet CA certificate will be added to the
+  OS certificate store.
+* The Foreman smart-proxy currently executes as root.
