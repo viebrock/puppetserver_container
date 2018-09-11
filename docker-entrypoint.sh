@@ -13,6 +13,11 @@ if test -n "${AUTOSIGN}" ; then
   puppet config set autosign "$AUTOSIGN" --section master
 fi
 
+if test -f /etc/puppetlabs/puppet/ssl/certs/ca.pem; then
+  cp /etc/puppetlabs/puppet/ssl/certs/ca.pem /usr/share/ca-certificates/puppet-ca.crt
+  echo "puppet-ca.crt" >> /etc/ca-certificates.conf && update-ca-certificates
+fi
+
 # Startup the Foreman smartproxy
 # SMARTPROXY=true
 if test -n "${SMARTPROXY}" ; then
