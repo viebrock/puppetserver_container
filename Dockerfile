@@ -8,7 +8,7 @@ RUN echo "deb http://deb.theforeman.org/ jessie $FOREMAN_VERSION" > /etc/apt/sou
     apt-get -y update && apt-get -y upgrade  && \
     apt-cache search foreman && \
     apt-get -y --allow-unauthenticated install foreman-proxy && \
-    gem install bundler_ext rack sinatra
+    gem install bundler_ext rack sinatra concurrent-ruby
 
 COPY foreman-enc.rb /usr/local/bin/
 COPY foreman.rb /opt/puppetlabs/puppet/lib/ruby/vendor_ruby/puppet/reports/
