@@ -1,0 +1,7 @@
+---
+:enabled: <%= smartproxy_realm_enabled %>
+:use_provider: realm_freeipa
+
+# Unparsed options, please review
+
+:use_provider: realm_freeipa

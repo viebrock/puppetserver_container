@@ -1,0 +1,7 @@
+MigrateMonolithicConfig
+MigrateDnsSettings
+MigrateDhcpSettings
+MigrateVirshToLibvirtConfig
+MigratePuppetSettings
+MigrateRealmSettings
+MigrateAutosignSetting

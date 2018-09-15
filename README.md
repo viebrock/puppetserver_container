@@ -18,6 +18,28 @@ The following environmental variables are recognized by the contianer:
         started. The configuration for the smart_proxy is located in
         /etc/foreman-proxy.
 
+HOSTNAME
+
+SMARTPROXY_TRUSTED_HOSTS
+SMARTPROXY_LOG_LEVEL = INFO
+SMARTPROXY_PUPPET_CACHE = false
+FOREMAN_URL 
+
+SMARTPROXY_BMC_ENABLED = false
+SMARTPROXY_DHCP_ENABLED = false
+SMARTPROXY_DNS_ENABLED = false
+SMARTPROXY_FACTS_ENABLED = true
+SMARTPROXY_LOGS_ENABLED = true
+SMARTPROXY_PUPPET_ENABLED = true
+SMARTPROXY_PUPPETCA_ENABLED = false
+SMARTPROXY_REALM_ENABLED = false
+SMARTPROXY_TEMPLATES_ENABLED = false
+SMARTPROXY_TFTP_ENABLED = false
+
+PUPPET_VERSION = 5.3.4
+PUPPET_URL
+
+
 Other Notes
 -----------
 * Upon container startup, the Puppet CA certificate will be added to the

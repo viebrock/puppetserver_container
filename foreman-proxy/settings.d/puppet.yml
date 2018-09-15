@@ -1,0 +1,3 @@
+---
+:enabled: <%= smartproxy_puppet_enabled %>
+:puppet_version: <%= puppet_version %>
