@@ -11,7 +11,7 @@ RUN echo "deb http://deb.theforeman.org/ jessie $FOREMAN_VERSION" > /etc/apt/sou
     apt-get -y update && apt-get -y upgrade  && \
     apt-get -y install libkrb5-dev krb5-user && \
     apt-get -y --allow-unauthenticated install foreman-proxy && \
-    gem install bundler_ext rack sinatra concurrent-ruby semi && \
+    gem install bundler_ext rack sinatra concurrent-ruby semi hiera-eyaml && \
     mkdir -p /var/lib/puppet && chown puppet:puppet /var/lib/puppet
 
 COPY foreman-enc.rb /usr/local/bin/
