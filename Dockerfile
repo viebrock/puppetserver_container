@@ -6,6 +6,8 @@ ENV FOREMAN_VERSION 1.16
 
 ENV DEBIAN_FRONTEND noninteractive
 
+ENV PATH=/opt/puppetlabs/bin:/opt/puppetlabs/puppet/lib/ruby/vendor_gems/bin:$PATH
+
 RUN echo "deb http://deb.theforeman.org/ jessie $FOREMAN_VERSION" > /etc/apt/sources.list.d/foreman.list && \
     echo "deb http://deb.theforeman.org/ plugins $FOREMAN_VERSION" >> /etc/apt/sources.list.d/foreman.list && \
     apt-get -y update && apt-get -y upgrade  && \
