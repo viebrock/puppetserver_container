@@ -27,7 +27,7 @@
   - foreman-dev.moria.smartsheet.com
 
 # Endpoint for reverse communication
-:foreman_url: https://foreman.moria.smartsheet.com
+:foreman_url: https://foreman-dev.moria.smartsheet.com
 
 # SSL settings for client authentication against Foreman. If undefined, the values
 # from general SSL options are used instead. Mainly useful when Foreman uses
@@ -49,7 +49,7 @@
 # https is enabled if certificate, CA certificate, and private key are present in locations specifed by
 # ssl_certificate, ssl_ca_file, and ssl_private_key correspondingly
 # default values for https_port is 8443
-:https_port: 8445
+:https_port: 8443
 #:http_port: 8000
 # Log configuration
 # Uncomment and modify if you want to change the location of the log file or use STDOUT or SYSLOG values

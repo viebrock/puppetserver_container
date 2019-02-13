@@ -19,4 +19,4 @@ COPY config/foreman-proxy /etc/foreman-proxy
 EXPOSE 8000
 EXPOSE 8443
 
-RUN echo "Run this inside the container: apt-get -y install libkrb5-dev krb5-user.........."
+RUN echo "Run this inside the container:   apt-get -y install libkrb5-dev krb5-user   .........."
