@@ -23,8 +23,8 @@
 # commenting the following lines would mean every verified SSL connection allowed
 :trusted_hosts:
   - localhost
-  - ss-puppet-0401.moria.smartsheet.com
-  - foreman.moria.smartsheet.com
+  - ss-puppet-0405.moria.smartsheet.com
+  - foreman-dev.moria.smartsheet.com
 
 # Endpoint for reverse communication
 :foreman_url: https://foreman.moria.smartsheet.com
