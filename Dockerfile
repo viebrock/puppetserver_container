@@ -16,10 +16,7 @@ COPY foreman.rb /opt/puppetlabs/puppet/lib/ruby/vendor_ruby/puppet/reports/
 COPY docker-entrypoint.sh /
 COPY config/foreman-proxy /etc/foreman-proxy
 
-RUN echo "Run this inside the container: apt-get -y install libkrb5-dev krb5-user.........."
-
 EXPOSE 8000
 EXPOSE 8443
 
 RUN echo "Run this inside the container: apt-get -y install libkrb5-dev krb5-user.........."
-
