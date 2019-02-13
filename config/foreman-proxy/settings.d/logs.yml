@@ -1,0 +1,4 @@
+---
+:enabled: https
+
+# To configure log buffer capacity, go to settings.yml
