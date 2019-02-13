@@ -1,0 +1,5 @@
+---
+# PuppetCA management
+:enabled: https
+:ssldir: /etc/puppetlabs/puppet/ssl
+:puppetdir: /etc/puppetlabs/puppet
