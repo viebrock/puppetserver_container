@@ -88,7 +88,7 @@ Foreman smartproxy variables
 
    * PUPPET_VERSION: This sets the version of Puppet being executed for
       the Foreman smartproxy. It is usually set by the container environment
-      and is not necessary to change. The default is 5.3.4
+      and is not necessary to change. The default is 5.3.7
 
    * PUPPET_URL: Location of the Puppet API when using the smartproxy
       to interface Puppet for CA and environmental information.
