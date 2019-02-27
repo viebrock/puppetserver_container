@@ -1,6 +1,8 @@
 ---
 :settings_directory: "/etc/foreman-proxy/settings.d"
-:trusted_hosts: []
+:trusted_hosts:
+  - localhost
+  - <%= hostname %>
 :daemon: true
 :bind_host:
   - '*'

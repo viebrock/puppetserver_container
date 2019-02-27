@@ -6,7 +6,7 @@ the Foreman report processor and the Foreman smart_proxy.
 
 Container Controls
 ------------------
-The following environmental variables are recognized by the contianer:
+The following environmental variables are recognized by the container:
 
 Puppet variables
 ----------------
